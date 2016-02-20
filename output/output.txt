@@ -1,0 +1,123 @@
+
+Test Case 1 Output
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+0
+Input File Name : TestCase_20Mil.txt
+File Size : 2.16066837310791GB
+Number of Unique IP Address : 5.0 Million
+
+IP Address		|Count
+129.134.214.224		|21
+107.131.232.190		|19
+118.138.206.138		|17
+122.139.222.264		|16
+116.145.202.180		|16
+
+Algorithm Elapsed Time: 0 hrs : 1 mins : 7 sec : 948 ms : 247903 ns
+
+----------------------------------------------------------------------------------------------------
+
+Test Case 2 Output
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+0
+Input File Name : TestCase_50Mil.txt
+File Size : 5.401670932769775GB
+Number of Unique IP Address : 10.0 Million
+
+IP Address		|Count
+109.135.222.178		|29
+112.141.237.156		|27
+115.153.228.135		|21
+118.148.224.137		|21
+121.129.203.163		|19
+
+Algorithm Elapsed Time: 0 hrs : 3 mins : 9 sec : 229 ms : 822866 ns
+
+-----------------------------------------------------------------------------------------------------
+
+Test Case 3 Output
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+2
+Input File Name : TestCase_Single_IP_Records.txt
+File Size : 5.401670932769775E-6GB
+Number of Unique IP Address : 1
+
+IP Address			|Count
+131.167.230.134 	|50
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 10 ms : 441168 ns 
+
+----------------------------------------------------------------------------------------------------
+
+Test Case 4 Output
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+0
+Input File Name : TestCase_Empty_File.txt
+File Size : 0.0GB
+Number of Unique IP Address : 0
+
+Input file is empty
+IP Address			|Count
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 4 ms : 542538 ns
+
+----------------------------------------------------------------------------------------------------
+Complete Date Range
+Test Case 5 Output:
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+0
+Input File Name : TestCase_Manual_File.txt
+File Size : 6.0498714447021484E-6GB
+Number of Unique IP Address : 10
+
+IP Address			|Count
+110.170.202.179		|21
+122.155.235.234		|11
+133.170.216.184		|8
+106.158.225.138		|5
+111.151.209.199		|4
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 10 ms : 87071 ns 
+
+Only for 1 month
+Test Case 5 Output:
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+1
+Input File Name : TestCase_Manual_File.txt
+File Size : 6.0498714447021484E-6GB
+Enter Number of month
+1
+Number of Unique IP Address : 8
+
+IP Address		|Count
+110.170.202.179		|21
+133.170.216.184		|8
+106.158.225.138		|5
+111.151.209.199		|4
+137.168.204.279		|2
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 32 ms : 608175 ns 
+
+----------------------------------------------------------------------------------------------------
+
+Test Case 6 Output:
+
+Press '1' to enter number of past months to be considered for analysis 
+Press any other key to analyse the complete log
+1
+Input File Name : TestCase_Date_Range_with_past_3_months_empty.txt
+File Size : 3.2410025596618652E-6GB
+Enter Number of month
+3
+Number of Unique IP Address : 0
+
+Input file is empty for the selected period
+IP Address		|Count
+
+Algorithm Elapsed Time: 0 hrs : 0 mins : 0 sec : 32 ms : 851082 ns  

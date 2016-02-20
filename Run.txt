@@ -1,0 +1,46 @@
+
+Steps to run the program:
+
+1.	(Optional) - to run the fileGeneration.java
+
+	The Program generates the input test file for testing Most frequent Site visitor program.
+	The objective of the program is to generate a simulated server log file of visitors
+
+ 	Variables: Change the following variables in code for required test file	
+ 	int numberOfRecords = 50000000;
+ 	String lowerDatelimit = "2010-01-01 00:00:00";
+ 	String upperDatelimit = "2016-02-20 00:00:00";
+ 
+	 Then run the module fileGeneration.java
+ 
+2.	ServerLogFileAnalysisMain.java
+ 	The Program analyses the server log file of API calls and provides the list
+ 	of the top 5 IP addresses (users) which have the maximum API calls for the log.
+ 	
+ 	- When you have the input file ready, place the file in the testCases path.
+ 	- Make sure you name the file as "TestCase.txt"
+ 	- The program by default will pick the file from testCases path
+ 	- You can also change the file name and path by changing it in the program
+ 	- Run module ServerLogFileAnalysisMain.java
+ 	- Program will ask you for your choice of analysis
+ 	- Input 1 to enter the number of previous months to consider for analysis
+ 	- Or Input any other key (except Enter) to chose default option of considering all the records on the Log
+ 	- Hit Enter and if you has opted for months enter number of months as well  and hit enter
+ 	- The program is executed and displays the result on the console
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
