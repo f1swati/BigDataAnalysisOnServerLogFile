@@ -51,7 +51,7 @@ public class fileGeneration {
 		for (int i = 1; i <= numberOfRecords; i++) {
 			
 			//Random IP Address with Limits
-			String ipAddress = (int) (100 + (Math.random() * (180 - 100))) + "."
+			String ipAddress = (int) (100 + (Math.random() * (140 - 100))) + "."
 					+ (int) (128 + (Math.random() * (172 - 128))) + "." 
 					+ (int) (200 + (Math.random() * (240 - 200)))
 					+ "." + (int) (128 + (Math.random() * (254 - 100)));
